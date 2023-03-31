@@ -1,0 +1,144 @@
+body{
+    margin:0px;
+    padding:0px;
+   font-family: Tahoma;
+}
+
+.secao{
+    padding-bottom:30px;
+    text-align:center;
+    
+    
+}
+
+
+
+.logo{
+    width:300px;
+    
+
+}
+
+.secao-topo{
+    background-color:black;
+    
+ 
+    
+    
+    
+    
+    
+    
+
+   
+}
+
+
+
+
+.topo a{
+    font-size:18px;
+    color:darkgrey;
+    padding: 25px;
+    margin-top:0px;
+    margin-bottom:0px;
+    text-decoration: none;
+    
+
+}
+
+.banner{
+    width:100px;
+    
+}
+
+.secao-sobre{
+   margin-top:50px; 
+   padding-top:0px;
+}
+
+.secao-sobre .casa{
+    width: 200px ;
+}
+
+.secao-sobre h1{
+    
+}
+.secao-sobre h2{
+    color:#0380d3;
+    font-size:20px;
+    margin-top:0px;
+}
+
+.casa{
+    width:400px;
+}
+
+.paragrafo-sobre span{
+    color:#0380d3;
+    font-weight: bold;
+}
+
+.secao-servico{
+    background-color:#0380d3;
+    padding:110px;
+    color:aliceblue;
+   
+}
+
+.titulo-servico{
+    padding-bottom:30px;
+}
+
+.paragrafo-servico{
+    font-size:22px;
+    padding-left: 30px 30px;
+    
+}
+
+.paragrafo-servico span{
+    color:yellow;
+    font-weight: bold;
+}
+
+.menu-servico{
+    font-size:21px;
+    text-align: justify;
+    
+    
+    
+}
+
+ul,li,a{
+    text-decoration: none;
+    list-style: none;
+}
+
+
+
+
+
+    a:hover{
+        color:rgb(248, 203, 0);
+        transition: 1s;
+        border-radius: 35px;
+        
+    }    
+    
+   
+    .galeria{
+        display: flex;
+        overflow-x: scroll;
+        margin: 0 auto 20px auto;
+    }
+
+
+    .galeria img {
+        width: 350px;
+        height: 250px;
+        margin: 10px;
+    }
+
+    .imagem-sombra {
+        box-shadow: 10px 10px 10px #939393;
+    }

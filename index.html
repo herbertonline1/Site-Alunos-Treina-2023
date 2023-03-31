@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="Pt-Br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylelogin.css">
+
+    <title>Login</title>
+</head>
+
+<body>
+
+    <div>
+        <div class='wave -one'></div>
+        <div class='wave -two'></div>
+        <div class='wave -three'></div>
+
+
+        <section class="login">
+
+            <h1>LOGIN</h1>
+            <input type="text" placeholder="Login" id="login">
+            <br><br>
+            <input type="password" placeholder="Senha" id="senha">
+            <br><br>
+            <button class="botao" onclick="logar(); return false">Entrar</button>
+            <br><br>
+            <a href="#"> Cadastre-se</a>
+
+        </section>
+
+    </div>
+
+    <script>
+        
+        function logar() {
+            
+            var login = document.getElementById('login').value;
+            var senha = document.getElementById('senha').value;
+
+            if(login == "treina2023" && senha == "treina2023"){
+                alert('Seja Bem-vindo');
+                location.href ="index1.html";
+            }else{
+                alert('Usuario ou Senha incorretos');
+            
+            }
+        }
+</script>
+
+</body>
+
+</html>
